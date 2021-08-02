@@ -32,6 +32,7 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
         
         System.out.println(cars.size());
+        cars.forEach(System.out::println);
         assertTrue(true);
     }
 }
